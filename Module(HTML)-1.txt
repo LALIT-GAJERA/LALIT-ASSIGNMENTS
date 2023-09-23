@@ -1,0 +1,93 @@
+Web Designing Assignment
+
+Term-1
+
+Name : Lalit M Gajera
+
+Module (HTML) -1
+
+
+Question  : Are the HTML tags and elements the same Thing ?
+Answer 	  : NO HTML tags and elements are not same thing.
+
+
+Question  : What are tags and attributes in HTML ?
+
+
+Question  : What are void elements in HTML ?
+Answer 	  :
+
+
+Question  : What are HTML Entities ?
+Answer 	  :
+
+
+Question  : What are different types of lists in HTML ?
+Answer	  :
+
+Question  : what is the 'Class' attribute in HTML ?
+Answer	  : 
+
+
+Question  : What is the difference between the 'id' attribute an the 'class' attribute of HTML elements ?
+Answer	  :
+
+
+Question  : What are the varioud formatting tags in HTML ?
+Answer	  :
+
+
+Question  : Ho is Cell padding different from Cell Spacing ?
+Answer	  :
+
+
+Question  : How can we club two or more rows or columns into a single row or column in an HTML table ?
+Answer	  :
+
+
+Question  : What is the difference between a block-level element and and inline element?
+Answer	  :
+
+
+Question  : HOW TO Crete a hyperlink in HTML ?
+Answer	  :
+
+
+
+Question  :What is the use of an frame tag ?
+Answer	  :
+
+
+Question  : What is the use of a span tag ? explain with example ?
+Answer	  :
+
+
+Question  :  How to insert a picture into a background image of a web page ?
+Answer	  :
+
+
+Question  : How are active links different into a background image of a web page ?
+Answer	  :
+
+
+Question  : How are active links different from normal links ?
+Answer	  :
+
+
+Question  : What are the different tags to separate sections of text ?
+Answer	  :
+
+
+
+Question  : What is SVG ?
+Answer	  :
+
+
+
+Question  : What is difference between HTML and xhtml ?
+Answer	  :
+
+
+
+Question  : What is logical and physical tags in HTML ?
+Answer	  :
