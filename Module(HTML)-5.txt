@@ -1,0 +1,40 @@
+Web Designing Assignment
+
+Term-1
+
+Name : Lalit M Gajera
+
+Module (HTML) -5
+
+
+	Question : What are the new tags added in HTML5?
+
+	Answer 	:  HTML5 is embed multimedia tag.. by audio an vedeo  and graphic tag.
+
+
+
+	Question : How to embed audio and video in a webpage?
+	Answer 	 : The <audio> tag is used for embed audio in web page and same as use of <video > tag we can embed video in a web page. 
+
+
+	Question :  Semantic element in HTML5?
+	Answer	   There are two type of semantic element 
+
+		(1) sementic tag : provide structure or tell your predefine content for ex, <table>, <header>, <footer>, <p>
+
+		(2) non-sementic tag : nothing tell about its content    for ex, <div>, <span> <table>, <header>, <footer>, <p>
+
+
+
+	Question : Canvas and SVG tags
+	Answer	:  Canvas
+		   The HTML <canvas> element is used to draw graphics.The <canvas> element is only a container for graphics.
+		   Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+		   
+		   SVG Tag
+  		   SVG stands for Scalable Vector Graphics. SVG is used to define graphics for the Web.SVG is a W3C recommendation.
+		   SVG has several methods for drawing paths, boxes, circles, text, and graphic images.
+
+		   
+
+	

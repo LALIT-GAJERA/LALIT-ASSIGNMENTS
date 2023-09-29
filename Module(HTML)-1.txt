@@ -12,82 +12,122 @@ Answer 	  : NO HTML tags and elements are not same thing.
 
 
 Question  : What are tags and attributes in HTML ?
+Answer	  : HTML tags are what defines where an HTML element starts and where it ends.There is usually an opening bracket followed by the element’s name and, finally, a closing bracket
+	    HTML attribute is what modifies an HTML element.They control the behavior of the element that follows
 
 
 Question  : What are void elements in HTML ?
-Answer 	  :
+Answer 	  : There is a special group of elements that only have start tags and does not contain any content within it, these elements are called void elements. 
+            Void elements doesn’t have ending tags and can only have attributes but do not contain any kind of content. These elements can have backslash before ending of start tag but that is completely optional. 
+	    Example of such elements are <br>, <hr>, <img>, <input>, <link>, <base>, <meta>, <param>, <area>, <embed>, <col>, <track>, <source> etc.
 
 
 Question  : What are HTML Entities ?
-Answer 	  :
+Answer 	  : HTML entities are the reserved characters that have special meaning when used in an HTML document. Each of these codes starts with an ampersand and ends with a semicolon. Now that we’ve understood the
+            definition of HTML entities, let’s go ahead and explore what symbol and character entities are.
 
 
 Question  : What are different types of lists in HTML ?
-Answer	  :
+Answer	  : There is three different types of list in HTML. One is "Ordered" sencond is "Unordered"  amd Third one is description.
 
 Question  : what is the 'Class' attribute in HTML ?
-Answer	  : 
-
+Answer	  : The class attribute specifies one or more classnames for an element.The class attribute is often used to point to a class name in a style sheet.
 
 Question  : What is the difference between the 'id' attribute an the 'class' attribute of HTML elements ?
-Answer	  :
+Answer	  : The basic difference between ID and Class is that the ID selector is applied only to one element in a page, whereas the class selector can be applied to several elements on a single page.
+	    ID is unique in a page and can only apply to at most one element vs The class can be applied to multiple elements so it could be multiple times on a single page.
+	    the ID name starts with the "#" symbol followed by a unique name assigned to it."class" assigned to an element has its name starts with "." followed by class name.
 
 
-Question  : What are the varioud formatting tags in HTML ?
-Answer	  :
+Question  : What are the various formatting tags in HTML ?
+Answer	  : The <br> tag is one way to separate the lines of text. There are other tags like the <p> tag and <blockquote> tag that are also used to separate sections of text.
 
 
-Question  : Ho is Cell padding different from Cell Spacing ?
-Answer	  :
+Question  : How is Cell padding different from Cell Spacing ?
+Answer	  : Cellpadding basically defines the space present between a table cell's border and the content present in it. 
+            Cellspacing basically defines the space present between individual adjacent cells.
 
 
 Question  : How can we club two or more rows or columns into a single row or column in an HTML table ?
-Answer	  :
+Answer	  : we can club two or more rows or columns into a single row or column by using the rowspan and colspan attribute in HTML.
 
 
 Question  : What is the difference between a block-level element and and inline element?
-Answer	  :
+Answer	  : Block elements always start from a new line. 
+	    Inline elements never start from a new line. 
+
+	    Block elements cover space from left to right as far as it can go. 
+            Inline elements only cover the space as bounded by the tags in the HTML element.
 
 
 Question  : HOW TO Crete a hyperlink in HTML ?
-Answer	  :
+Answer	  : we can create hypelink in html by using of "a" tag.
+	    for Exp. <a href=" link of weg page "> text for open hypelink </a>
 
 
 
-Question  :What is the use of an frame tag ?
-Answer	  :
+Question  : What is the use of an frame tag ?
+Answer	  : HTML Frames are used to divide the web browser window into multiple sections where each section can be loaded separately
 
 
 Question  : What is the use of a span tag ? explain with example ?
-Answer	  :
+Answer	  : The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
+	    Expample 
+	    <!DOCTYPE html>
+<html>
+ 
+<body>
+    <h2>Welcome To TOPS TECHNOLOGY</h2>
+     
+ 
+<p>TOPS TECHNOLOGY IS A 
+        <span style="color:red;font-weight:bolder">
+            IT INSTITUTE</span> CENTER for learnging
+        <span style="background-color: lightgreen;">software develpment</span>.
+    </p>
+ 
+ 
+</body>
+ 
+</html>	
 
 
 Question  :  How to insert a picture into a background image of a web page ?
-Answer	  :
+Answer	  :  There is commman way to to insert a picture into a background image is using the background image attribute inside the <body> tag. 
 
-
-Question  : How are active links different into a background image of a web page ?
-Answer	  :
 
 
 Question  : How are active links different from normal links ?
-Answer	  :
+Answer	  : Normal links are links which are there on the page and have not been clicked yet. Active links are those links, which have just been clicked at that instant.
 
 
 Question  : What are the different tags to separate sections of text ?
-Answer	  :
+Answer	  : THare are 3 diffrent tags to saprate section of text like <br> , <p> tag and <p> and <blockquote>  are use for seprate sections of text.
 
 
 
 Question  : What is SVG ?
-Answer	  :
+Answer	  : SVG is most useful tag in html which is to define graphics for the Web. SVG stands for Scalable Vector Graphics. SVG is a W3C recommendation.
+	    SVG has several methods for drawing paths, boxes, circles, text, and graphic images..
 
 
 
 Question  : What is difference between HTML and xhtml ?
-Answer	  :
+Answer	  : The main difference between them is the syntax and structure; HTML is more lenient in its syntax, while XHTML has a more strict syntax and follows XML rules. 
+	    XHTML is considered the successor to HTML, and its strict syntax makes it more suitable for future technologies and advancements.
+
+	1.	HTML used to create web pages and other information that can be displayed in a web browser.
+		XHTML that is a stricter version of HTML and conforms to XML syntax.
+
+	2.	HTML allows for loose syntax, with end tags and attributes often being optional.
+		XHTML requires end tags for all elements and attributes to be quoted.
+
+	3.	HTML does not support namespaces
+		XHTML supports namespaces, allowing for the integration of other XML languages.
+
 
 
 
 Question  : What is logical and physical tags in HTML ?
-Answer	  :
+Answer	  : Logical tags are used to tell the browser what kind of text is written inside the tags.
+	    Physical Tags are used to indicate that how specific characters are to be formatted or indicated using HTML tags.	
