@@ -1,0 +1,182 @@
+Web Designing Assignment
+
+Term-1
+
+Name : Lalit M Gajera
+
+
+
+Module (CSS and CSS 3) -2
+
+
+•   What are the benefits of using CSS?
+->  CSS has many benefits that enable developers to design a website .CSS use for applied style and look for our webpage, 
+    generly CSS used for desine our webpage and proper setup webside. 
+    Benefits of Using CSS
+	1) Better Website Speed-by usging CSS help to reduce the file size of your web pages. This is because browsers can cache CSS, so users do not need to download the CSS code every time they visit your website
+	2) Positioning of Design Elements- by using CSS you can proper position of your element and design make user friendly.
+	3) Improved separation of concerns-CSS allows you to separate the styling of your web pages from the structure of your web pages. This makes your code more organized and easier to maintain.
+	4) Increased consistency-CSS allows you to apply the same styles to multiple elements on a web page. This helps to create a more consistent look and feel for your web pages
+	5)Greater flexibility- CSS allows you to have more control over the appearance of your web pages than HTML alone. For example, you can use CSS to change the font, font size, color, background color, and layout of your web pages.
+
+	Overall, CSS is a powerful tool that can be used to improve the appearance, accessibility, performance, and maintainability of your web pages.
+--------------------
+
+• What are the disadvantages of CSS?
+--> There are some Disadvantage of CSS
+
+	1) Browser Compatibility -> CSS may render differently in various web browsers, leading to inconsistencies in the visual presentation. Developers often need to write browser-specific CSS code or use
+	   vendor prefixes to ensure compatibility.
+
+	2) Learning Curve -> One among the main disadvantages of cascading style sheets is that while it is essential for web development, it can be complex, especially for beginners. Mastering CSS requires 
+           understanding selectors, properties, values, and the box model, which can be overwhelming.
+
+        3) Lack of Security -> CSS itself does not offer security features, and it can be vulnerable to attacks like Cross-Site Scripting (XSS) when used inappropriately. Developers must be cautious when 
+           implementing CSS to prevent security risks.
+
+        4) Limited Layout Control -> CSS has limitations when it comes to controlling complex layouts. Achieving specific layouts, such as equal-height columns, can be challenging without resorting to 
+           workarounds or additional technologies like Flexbox or Grid.
+
+        5) Performance Impact -> Extensive or poorly optimized CSS files can slow down page load times. It's essential to minimize and optimize CSS to maintain optimal website performance.
+
+        6) Overriding Styles -> The "cascading" nature of CSS can sometimes lead to unexpected styling conflicts. Specificity and the order in which styles are applied can result in unintended consequences.
+
+        7) Maintenance Challenges -> As websites grow and evolve, maintaining and refactoring CSS can become complex and time-consuming. It's crucial to follow best practices and use naming conventions to keep styles manageable.
+           While there are advantages to using inline CSS, such as the ability to apply unique styles to individual elements directly within the HTML, it's essential to strike a balance and consider the trade-offs in terms of code maintainability and efficiency. However, it's equally important to recognize the disadvantages of inline CSS, which can clutter your HTML code, make updates less efficient, and hinder the overall readability and maintainability of your web pages.
+
+--------------------
+
+• What is the difference between CSS2 and CSS3?
+    	thare some major difference between CSS2 & CSS3
+
+	1) -> CSS Splits up different section of the code into modules  
+                                VS 
+             CSS3 both CSS and HTML were put into a single file, thre was no concept of modules before.
+
+	2) -> In CSS there are new ways you can write CSS rules with a bunch of CSS selectors 
+                                VS 
+              In CSS3 there were no new ways of writing the CSS rues. 
+
+	3) -> In CSS there is no backward compatibity with CSS2  
+                                 VS 
+              IN CSS3 There is backward compatibity maintained with CSS3 
+
+	4) -> With CSS2 only web safe fonts can be used.
+				VS
+	      With CSS3 special fonts can be used such as thouse in google Fonts and type cast.
+
+	5) -> With CSS2 the Concept of Simple selectors were present 
+				VS
+	      With CSS3 the selector were called as a sequence of simple selectors.com
+	
+	6) -> Using CSS2, for roundded borders, coding the css style were complex 
+				 VS
+	      With CSS3, there is provision for automatically assigning rounded border to objects21
+
+	7) -> CSS2, splitting text into multiple columns required complex coding because the standard was not equipped enough to break the text into columns so that it would fit into a box
+				VS
+	      CSS3 has the capability to split text into various columns so that each text block appears as a layout of the newspaper 
+
+	8) -> CSS 2 Doesn't Support the border - Box Property 
+				VS
+	      CSS3 supports the border box Property.
+
+ 
+--------------------
+• Name a few CSS style components
+
+	-> CSS consistis two components the properties and Valuse. 
+		Properties	: These are human-readable identifiers that indicate which stylistic features you want to modify. For example, font-size , width , background-color .
+		Values		: Each property is assigned a value. This value indicates how to style the property.
+
+
+• What do you understand by CSS opacity?
+
+	-> The opacity in CSS is the property of an element that describes the transparency of the element. It is the opposite of transparency & represents the degree to which 
+           the content will be hidden behind an element.We can apply the opacity with different styling properties to the elements. A few of them are discussed below:
+
+           Image Opacity: The opacity property is used in the image to describe the transparency of the image. The value of opacity lies between 0.0 to 1.0 where a low value represents high transparency and a high value 
+           represents low transparency. The percentage of opacity is calculated as Opacity% = Opacity * 100.
+
+
+• How can the background color of an element be changed?
+	-> The backgound color of abn element be changed by CSS Background-Color Propertes.
+
+• How can image repetition of the backup be controlled?
+	
+	->The Image repetition of the backup be controleed by CSS background-repeat property. You can use no-repeat value for the background-repeat property 
+          if you do not want to repeat an image, in this case, the image will display only once.
+
+• What is the use of the background-position property?
+	
+	-> The use of background-position property is sets the starting position of a background image. 	
+
+• Which property controls the image scroll in the background?
+
+	> The Bakcground attechedment property controls the image scroll in gackground.The background-attachment property can either be set to scroll or fixed.
+
+• Why should background and color be used as separate properties?
+
+	-> background and color used as sperate properites. The background property is a complex property in CSS, and if it is combined with color, 
+           the complexity will further increase. Color is an inherited property while the background is not.
+
+	-> he separation of the background and color properties in CSS allows for greater flexibility and specificity when styling elements. 
+           By having separate properties, developers can easily target and modify the background and text color independently
+
+• How to center block elements using CSS1?
+
+	-> To centrally align the block elements, we can simply make use of the <center> tag. All the elements within the <center> tag will be centrally aligned.
+
+• How to maintain the CSS specifications?
+
+	-> The CSS specifications are maintained by the World Wide Web Consortium (W3C). Even though every browser supports CSS, 
+           there are many inconsistencies in the supported specification version. Some browsers even have their own implementation of the specification and have proprietary (vendor) prefixes.
+
+• What are the ways to integrate CSS as a web page?
+	
+	-> There are three ways to integrate CSS into a web page.
+	a) Inline : HTML elements may have CSS applied to them via the STYLE attribute.
+	b) Embedded : By Placing the code in a STYLE element within the HEAD element.
+	c) Linked / Imported : Place the CSS in an external file and link it via a link element.
+
+   
+• What is embedded style sheets?
+
+	-> An embedded style sheet is declared within the <head> element of an XHTML document. It applies to the whole document, rather than just one element. 
+           Each style declaration (or CSS rule) gets applied to everything in the document that matches that rule.
+
+• What are the external style sheets?
+	-> An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. 
+           Multiple webpages can use the same link to access the stylesheet. The link to an external style sheet is placed within the head section of the page.
+
+• What are the advantages and disadvantages of using external style sheets?
+
+	-> The advantages of External Style Sheets are as follows :
+		With the help of External Style Sheets, the styles of numerous documents can be organized from one single file.
+		In External Style Sheets, Classes can be made for use on numerous HTML element types in many forms of the site.
+		In complex contexts, Methods like selector and grouping can be implemented to apply styles.
+
+	-> The disadvantages of External Style Sheets are as follows :
+		An extra download is essential to import style information for each file.
+		The execution of the file may be deferred till the external style sheet is loaded.
+		While implementing style sheets, we need to test Web pages with multiple browsers in order to check compatibility issues.
+
+• What is the meaning of the CSS selector?
+	-> A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have 
+             the CSS property values inside the rule applied to them
+
+• What are the media types allowed by CSS?
+	-> Following Medea type allowed by css
+	all-Suitable for all devices.
+	braille-Intended for braille tactile feedback devices.
+	embossed-Intended for paged braille printers.
+	handheld-Intended for handheld devices (typically small screen, limited bandwidth).
+	print-Intended for paged material and for documents viewed on screen in print preview mode. Please consult the section on paged media for information about formatting issues that are specific to paged media.
+	projection-Intended for projected presentations, for example projectors. Please consult the section on paged media for information about formatting issues that are specific to paged media.
+	screen-Intended primarily for color computer screens.
+	speech-Intended for speech synthesizers. Note: CSS2 had a similar media type called 'aural' for this purpose. See the appendix on aural style sheets for details.
+	tty-Intended for media using a fixed-pitch character grid (such as teletypes, terminals, or portable devices with limited display capabilities). Authors should not use pixel units with the "tty" media type.
+	tv-Intended for television-type devices (low resolution, color, limited-scrollability screens, sound available).
+
+• What is the rule set?
+	-> Each (valid) declaration block is preceded by one or more comma-separated selectors, which are conditions selecting some elements of the page. A selector list and an associated declarations block, together, are called a ruleset.

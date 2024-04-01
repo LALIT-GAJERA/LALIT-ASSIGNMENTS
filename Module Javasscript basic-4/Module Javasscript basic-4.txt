@@ -1,0 +1,82 @@
+Web Designing Assignment
+
+Term-1
+
+Name : Lalit M Gajera
+
+Module (JAVASCRIPT BASIC & DOM) – 4
+
+
+question 1- 	What Is javaScript ?
+Answer :-	JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.
+
+question 2-	What is the use of isNaN function?
+Answer :-	isNaN() method returns true if a value is Not-a-Number.
+
+question 3-	What is nagative Infinity?
+Answer :-	The negative infinity in JavaScript is a constant value that is used to represent a value that is the lowest available. This means that no other number is lesser than this value. It can be generated using a self-made function or by an arithmetic operation. .
+
+question 4-	Which Company Developed Javascript?
+Answer :-	JavaScript was created at Netscape Communications by Brendan Eich in 1995. 
+
+question 5-	What are undeclared and undefined variables ?
+Answer :-	Undefined: It occurs when a variable has been declared but has not been assigned any value. Undefined is not a keyword. 
+		Undeclared: It occurs when we try to access any variable that is not initialized or declared earlier using the var or const keyword.
+
+
+question 6-	Write the Code for adding new elements dynamically?
+Answer :-	<body>
+		    <button onclick="addValue()">click to add value</button>
+		    <ul>
+       			 <li>List 1</li>
+   		    </ul>
+
+    	<script>
+       		 function addValue() {
+           	 let list = document.createElement("li");
+         	 let listtext = document.createTextNode("new list");
+	         list.appendChild(listtext);
+         	 document.querySelector("ul").append(list);
+     	}
+    </script>
+
+question 7- 	What is the difference between ViewState and SessionState
+Answer :-	SessionState: It can be used to store information that you wish to access on different web pages.
+		ViewState It can be used to store information that you wish to access from same web page. 
+
+Question 8-	What is === Operator ?
+Answer :-	The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result
+
+Question 9-	How can the style/Class of an element be changed ?
+Answer :-	we can change style/class of an element by Use the querySelectorAll() method. 
+
+Question 10-	How to read and write a file using javascript?
+Answer :-	We casn read and write a file using javascript by help of function writeFile() and writeFile().
+
+Question 11:- 	what are all the looping stuctures in javascript.
+Answer :-	The loopin gstructure in javascript are while, do-while, for, forEach(), map(), for...in, for...of.
+
+Question 12 :- 	How can you convert the string of any base to an integer in JavaScript ?.
+Answer :-	To convert a string into integer we can use parseInt(), Number(), and Unary operator (+).
+
+Question 13 :-	What is the function of the delete operator ?
+Answer :-	The delete operator removes a property from an object.
+
+Question 14 :-	What are all the type of Pop up boxes available in javascript ?
+Answer :-	JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+Question 15 :-	What is the use of Void(0)?
+Answer :-	javascript: void(0) means return undefined as a primitive value. We use this to prevent any negative effects on a webpage when we insert some expression.
+
+Question 16 :-	How can a page be forced to load another page in javaScript?
+Answer :-	In JavaScript, we can use window.location object to force a page to load another page. We can use the location object to set the URL of a new page.
+
+QUestion 17 :-	What are the disadvantages of using inner HTML in javascript ?
+Answer :-	It is very slow because as inner HTML already parses the content even we have to parse the content again so that’s why it takes time.
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+Web Designing Assignment
+
+Term-1
+
+Name : Lalit M Gajera
+
+Module- Bootstrap Basic & Advanced -6
+
+
+Question :-  What are the advance of Bootstrap ?
+Answer 	 :-  There are many advantage of bootstrap 
+		1) Easy initiation
+		2) Responsiveness
+		3) Highly customizable
+		4) Extremely user-centric
+		5) Top-notch support
+		6) Cross-browser compatibility
+		7) avaScript plugins to your rescue
+		8) Far-reaching popularity
+		9) Ample documentation
+		10) Updates at the doorstep.
+
+Question :-  What are the advance of Bootstrap ?
+Answer 	 :-  There are many advantage of bootstrap 
+

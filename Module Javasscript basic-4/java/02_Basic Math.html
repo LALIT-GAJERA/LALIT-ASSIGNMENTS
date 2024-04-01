@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            border: 2px solid black;
+            height: 250px;
+            width: 450px;
+            margin: 10%;
+
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .input {
+            
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            padding-left: 10px;
+            /* margin-bottom: 50px; */
+          
+        }
+
+        .button1 {
+            height: 60px;
+            width: 100px;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+
+        }
+
+        button {
+            height: 25px;
+            width: 40px;
+
+        }
+        .ans1{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .inp label{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <H2> Math Operation</H2>
+        <div class="input">
+            <div class="lab" >
+                <label for="">Input First Number</label> <br>
+                <label for="">Input Second Number :</label>
+            </div>
+             <div class="inp">
+                <input type="number" id="i1"><br>
+                <input type="number" id="i2">
+            </div>
+        </div>
+        <div class="ans1">
+            <div class="button1">
+                <button id="plus">+</button>
+                <button id="mis">-</button>
+                <button id="multi">*</button>
+                <button id="div">/</button>
+                <button id="per">%</button>
+            </div>
+            <div class="ans">
+                <P> Asnser is <input type="number" id="res1"></P>
+            </div>
+        </div>
+            
+    </div>
+</body>
+<script>
+
+var a = document.getElementById("i1");
+var b = document.getElementById("i2");
+var res = document.getElementById("res1");
+
+document.getElementById("plus").addEventListener("click", function(){
+    res.value=parseInt(a.value)+parseInt(b.value);
+})
+
+document.getElementById("mis").addEventListener("click", function(){
+    res.value=parseInt(a.value)-parseInt(b.value);
+})
+
+document.getElementById("multi").addEventListener("click", function(){
+    res.value=parseInt(a.value)*parseInt(b.value);
+})
+document.getElementById("div").addEventListener("click", function(){
+    res.value=parseInt(a.value)/parseInt(b.value);
+})
+document.getElementById("per").addEventListener("click", function(){
+    res.value=parseInt(a.value)%parseInt(b.value);
+})
+
+</script>
+</html>

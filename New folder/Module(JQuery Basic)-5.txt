@@ -1,0 +1,74 @@
+Web Designing Assignment
+
+Term-1
+
+Name : Lalit M Gajera
+
+Module- JQUery Basic, Efffects & Advanced) -5
+
+
+Question :- What is jQuery ?
+Answer 	 :- jQuery is a lightweight, "write less, do more", JavaScript library.
+
+Question :- How to Apply CSS using JQuery, How to add Class and Remove Class in Jquery, JQuery Animation ?
+Answer 	 :- The jQuery method .css() can be used to set CSS property values. To change a single CSS property, the method takes two string arguments: the first is the desired CSS property name and the second is the new value.
+	    The jQuery .addClass() method adds a class to a selected element. The string argument passed into .addClass() is the name of the new class and has no period preceding it, as it is implied to be a class name.
+ 	    The jQuery .removeClass() method removes a class from a selected element. The string argument passed into the .removeClass() method is the name of the desired class to be removed, and has no period preceding it.
+
+Question :-  How to Create slider with animation ?
+Answer	 :-  we can create slider with sliding method of slideDown(),slideUp(),slideToggle()  and use animation with animate() method.
+
+Question :-   Event Bubbling ticking example.
+Answer	 :-   HTML
+		<body>
+			  <div>
+			    <span>
+			      <button>Click Me!</button>
+			    </span>
+			  </div>
+		</body>
+
+	      CSS
+		body 	{
+		  padding: 20px;
+		  background-color: pink;
+			}
+
+		div {
+		  padding: 20px;
+		  background-color: green;
+		  width: max-content;
+		    }
+
+		span {
+		  display: block;
+		  padding: 20px;
+		  background-color: blue;
+		}
+		script
+
+		const body = document.getElementsByTagName("body")[0]
+		const div = document.getElementsByTagName("div")[0]
+		const span = document.getElementsByTagName("span")[0]
+		const button = document.getElementsByTagName("button")[0]
+
+		body.addEventListener('click', () => {
+		  console.log("body was clicked")
+		})
+
+		div.addEventListener('click', () => {
+		  console.log("div was clicked")
+		})
+
+		span.addEventListener('click', () => {
+		  console.log("span was clicked")
+		})
+
+		button.addEventListener('click', () => {
+		  console.log("button was clicked")
+		})
+
+ 
+
+
+
