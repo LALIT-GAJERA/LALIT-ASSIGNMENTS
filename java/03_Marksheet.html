@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   
+    .main{
+        border: 1px black solid;
+        height: auto;
+        width: fit-content;
+        margin: auto;
+        padding: 20px;
+        
+        /* text-align: center; */
+    }
+    .mark{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+
+    }
+    .div1{
+        height:auto;
+        width: auto;
+        /* border: 1px solid black; */
+        padding: 25px 25px 5px 5px;
+       
+
+    }
+   
+    .div2{
+        height: auto;
+        width: auto;
+        /* border: 1px solid black; */
+        padding: 25px 25px 5px 5px;
+       
+        
+    }
+  
+
+    h1{
+        font-size: 20px;
+        text-align: left;
+    }
+    h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    h3{
+        font-size: 16px;
+        
+    }
+    input{
+        margin: 0;
+        padding: 0;
+        }
+ 
+    .btn{
+        align-items: center;
+        margin: 0;
+        margin-bottom: 0px;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    display: none;}
+    #tot{
+        height: auto;
+        width: 25px;
+        border: none;
+    }
+    #per{
+        height: auto;
+        width: 25px;
+        border: none;
+    }
+  
+</style>
+<body>
+    <div class="main">
+        <h1> Marksheet for Information Technology</h1><br>
+        <h2> Enter Mark</h2>
+        <div class="mark">
+            <div class="div1">
+                <p>1. C Lenguage </p>
+                <p>2. C++ Lenguage</p>
+                <p>3. Database</p>
+                <p>4. HTML</p>
+                <P>5. CSS</P>
+                <P>6. PHP</P>
+                <P>7. CORE JAVA</P>
+                <br><br>
+                <p>Total is : <input id="tot"></input><span>/ 700</span></p> 
+            
+
+            </div>
+            <div class="div2">
+                    
+                    <p><input type="number" name="" id="text1" ></p>
+                    <p><input type="number" name="" id="text2"></p>
+                    <p><input type="number" name="" id="text3"></p>
+                    <p><input type="number" name="" id="text4"></p>
+                    <p><input type="number" name="" id="text5"></p>
+                    <p><input type="number" name="" id="text6"></p>
+                    <p><input type="number" name="" id="text7"></p>
+                <button class="btn"onclick="mark1()">Result</button>
+                <p>Persentage is : <input id="per"></input> % </p>
+            </div>
+        </div>
+        
+    </div>
+    <script>
+        function mark1()
+    {
+      
+        var a1=document.getElementById('text1').value;
+        var a2=document.getElementById('text2').value;
+        var a3=document.getElementById('text3').value;
+        var a4=document.getElementById("text4").value;
+        var a5=document.getElementById("text5").value;
+        var a6=document.getElementById("text6").value;
+        var a7=document.getElementById("text7").value;
+        var tot1 = a1 - (- a2) - (- a3) - (- a4)-(-a5)-(-a6)-(-a7);
+        var per = tot1 / 7;
+        
+        document.getElementById("tot").value = tot1;
+        console.log(tot1);
+        document.getElementById("per").value = per;
+        
+     }
+        
+
+    </script sr>
+</body>
+</html>

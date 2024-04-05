@@ -5,6 +5,7 @@ Term-1
 Name : Lalit M Gajera
 
 Module (HTML) -1
+THIS IS HOW 
 
 
 Question  : Are the HTML tags and elements the same Thing ?
